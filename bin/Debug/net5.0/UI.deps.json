@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "UI/1.0.0": {
+        "dependencies": {
+          "QueueClass": "1.0.0",
+          "Singly_LinkedList": "1.0.0",
+          "StackGenericClass": "1.0.0"
+        },
+        "runtime": {
+          "UI.dll": {}
+        }
+      },
+      "QueueClass/1.0.0": {
+        "dependencies": {
+          "Singly_LinkedList": "1.0.0"
+        },
+        "runtime": {
+          "QueueClass.dll": {}
+        }
+      },
+      "Singly_LinkedList/1.0.0": {
+        "runtime": {
+          "ClassLibrary2.dll": {}
+        }
+      },
+      "StackGenericClass/1.0.0": {
+        "dependencies": {
+          "Singly_LinkedList": "1.0.0"
+        },
+        "runtime": {
+          "StackGenericClass.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "QueueClass/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Singly_LinkedList/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StackGenericClass/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

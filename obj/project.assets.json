@@ -1,0 +1,161 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "QueueClass/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Singly_LinkedList": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/QueueClass.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/QueueClass.dll": {}
+        }
+      },
+      "Singly_LinkedList/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Singly_LinkedList.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Singly_LinkedList.dll": {}
+        }
+      },
+      "StackGenericClass/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Singly_LinkedList": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/StackGenericClass.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StackGenericClass.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "QueueClass/1.0.0": {
+      "type": "project",
+      "path": "../QueueClass/QueueClass.csproj",
+      "msbuildProject": "../QueueClass/QueueClass.csproj"
+    },
+    "Singly_LinkedList/1.0.0": {
+      "type": "project",
+      "path": "../SinglyLinkedList/Singly_LinkedList.csproj",
+      "msbuildProject": "../SinglyLinkedList/Singly_LinkedList.csproj"
+    },
+    "StackGenericClass/1.0.0": {
+      "type": "project",
+      "path": "../StackGenericClass/StackGenericClass.csproj",
+      "msbuildProject": "../StackGenericClass/StackGenericClass.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "QueueClass >= 1.0.0",
+      "Singly_LinkedList >= 1.0.0",
+      "StackGenericClass >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\hp\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\hp\\Downloads\\Assignments\\LinkedList\\UI\\UI.csproj",
+      "projectName": "UI",
+      "projectPath": "C:\\Users\\hp\\Downloads\\Assignments\\LinkedList\\UI\\UI.csproj",
+      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hp\\Downloads\\Assignments\\LinkedList\\UI\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\hp\\Downloads\\Assignments\\LinkedList\\QueueClass\\QueueClass.csproj": {
+              "projectPath": "C:\\Users\\hp\\Downloads\\Assignments\\LinkedList\\QueueClass\\QueueClass.csproj"
+            },
+            "C:\\Users\\hp\\Downloads\\Assignments\\LinkedList\\SinglyLinkedList\\Singly_LinkedList.csproj": {
+              "projectPath": "C:\\Users\\hp\\Downloads\\Assignments\\LinkedList\\SinglyLinkedList\\Singly_LinkedList.csproj"
+            },
+            "C:\\Users\\hp\\Downloads\\Assignments\\LinkedList\\StackGenericClass\\StackGenericClass.csproj": {
+              "projectPath": "C:\\Users\\hp\\Downloads\\Assignments\\LinkedList\\StackGenericClass\\StackGenericClass.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.17, 5.0.17]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
